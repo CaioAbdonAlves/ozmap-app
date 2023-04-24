@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: .8em;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.customers {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-profile label {
+    margin-bottom: .5em;
+    font-size: 1.4em;
+}
+
+.form-profile input, textarea, select { 
+    margin-bottom: 1em;
+    padding: .7em;
+    border: 0;
+    border-radius: 5px;
+    width: 600px;
+    max-width: 600px;
+}
+
+.form-profile input:disabled {
+    cursor: not-allowed;
+}
