@@ -27,7 +27,7 @@ export default function Customers() {
                         }
                     });
                     console.log(response.data);
-                    toast.info("Usuário cadastrado com sucesso!");
+                    toast.success("Usuário cadastrado com sucesso!");
                 } catch (error) {
                     console.log("Ocorreu um erro ao cadastrar o usuário  " + error);
                     toast.error("Erro ao cadastrar esse usuário");
